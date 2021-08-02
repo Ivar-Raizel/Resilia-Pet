@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    font-family: 'poppins', sans-serif;
+    background: #e0e0e0;
+    background-repeat: no-repeat;
+}
+
+.header-main .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#e0e0e0;
+}
+
+.logoadoption {
+    height: 100px;
+    margin-left: 0;
+    cursor: pointer;
+}
+
+.logoadoption:hover {
+    height: 101px
+}
+
+.nav-main {
+    display: flex;
+    color: purple;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.nav-button {
+    margin: 20px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 5px;
+    border: 2px #1d3c68;
+    background: #533cbd;
+    cursor: pointer;
+    color:white;
+    transition: 0.3s;
+}
+
+.nav-button:hover {
+    background: #3664a3;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .header-main {
+        display: none;
+    }
+}
+
+.pets-image {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pets-image img {
+    box-sizing: border-box;
+    border:solid 4px #533cbd;
+    border-radius: 5%;
+    margin: 30px 60px;
+    max-width: 230px;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .pets-image {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.photos {
+    max-height: 400px;
+    max-width: 350px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.pets-image img:hover {
+    max-width: 233px;
+}
+
+.name {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    background: #ccbfdb;
+    margin-top: 50px;
+    height: 400px;
+}
